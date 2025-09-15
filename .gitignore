@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pkl.*
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model weights & checkpoints
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pb
+checkpoint/
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Data files 
+o-vs-r-split/
+*.zip
+*.tar
+*.gz
+
+# Specific model files 
+O_R_tlearn_fine_tune_vgg16.keras
+O_R_tlearn_fine_tune_vgg16.h5
