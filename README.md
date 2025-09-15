@@ -1,0 +1,76 @@
+# 🗑️ Waste Classification using Deep Learning (VGG16 + Transfer Learning)
+
+### ♻️ Organic vs Recyclable Waste Classifier  
+A deep learning project built with **TensorFlow & Keras**, using **Transfer Learning (VGG16)** to classify waste images into **Recyclable** and **Organic** categories.  
+
+This project was developed as the **final capstone** of my *Deep Learning with Keras & TensorFlow* course.  
+
+---
+
+## 🚀 Project Overview
+Waste management is a growing challenge in modern cities. Manual sorting is:  
+- ❌ Time-consuming  
+- ❌ Error-prone  
+- ❌ Resource-intensive  
+
+This project leverages **AI-powered image recognition** to automate waste classification, improving recycling efficiency and reducing contamination.  
+
+✅ **Input:** Waste image (e.g., food, bottles, paper)  
+✅ **Output:** `Organic 🌱` or `Recyclable ♻️`  
+
+---
+
+## 🔑 Key Features
+- 📸 Image preprocessing & augmentation  
+- 🧠 Transfer Learning with **VGG16**  
+- 🎯 Fine-tuning for improved accuracy  
+- 📊 Training & validation performance visualization  
+- 🔍 Test image predictions  
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.10+**  
+- **TensorFlow / Keras**  
+- **Matplotlib & Seaborn** (visualization)  
+- **NumPy & Pandas** (data handling)  
+- **Google Colab / Jupyter Notebook**  
+
+---
+
+## 📂 Project Structure
+```bash
+├── Final Proj-Classify Waste Products Using TL- FT-completed.ipynb         # Main notebook             
+├── o-vs-r-split/                                                           # Dataset
+│   └── train
+│   │   └── O
+│   │   └── R
+│   └── test
+│       └── O
+│       └── R
+├──  README.md                                                   # Project documentation
+├──  requirements.txt                                            # Requirements 
+└── .gitignore                                                   # Ignore big files & venv
+
+---
+
+🚀 How to Run
+
+1. Clone the repo:
+```bash
+    git clone https://github.com/buildwithmehul/waste-classification-using-transfer-learning.git
+    cd waste-classification-using-transfer-learning
+
+2. Create a virtual environment & install dependencies
+```bash
+    python -m venv venv
+    source venv/bin/activate   # On Mac/Linux
+    venv\Scripts\activate      # On Windows
+
+    pip install -r requirements.txt
+
+3. Open the notebook:
+```bash
+    jupyter notebook notebooks/Final\ Proj-Classify\ Waste\ Products\ Using\ TL-FT-v1.ipynb
+
+4. Run all cells to train/evaluate the model.
