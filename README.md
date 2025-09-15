@@ -116,12 +116,19 @@ Contributions are welcome! Feel free to open issues or submit PRs.
 
 ---
 
-✨ Acknowledgements
+## ✨ Acknowledgements
 
 - VGG16 Pre-trained Model (ImageNet)
 - Course: Deep Learning with Keras & TensorFlow
 - Inspiration: Real-world need for sustainable waste management
 
-🎓 Certificate
+---
+
+##🎓 Certificate
 ![Deep Learning with Keras and Tensorflow_page-0001](https://github.com/user-attachments/assets/604cf7e1-9375-4778-81ea-f8373dd8d23b)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
