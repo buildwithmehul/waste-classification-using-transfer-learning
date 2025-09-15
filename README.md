@@ -124,7 +124,7 @@ Contributions are welcome! Feel free to open issues or submit PRs.
 
 ---
 
-##🎓 Certificate
+## 🎓 Certificate
 ![Deep Learning with Keras and Tensorflow_page-0001](https://github.com/user-attachments/assets/604cf7e1-9375-4778-81ea-f8373dd8d23b)
 
 ---
