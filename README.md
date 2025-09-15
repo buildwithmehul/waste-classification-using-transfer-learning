@@ -78,6 +78,15 @@ This project leverages **AI-powered image recognition** to automate waste classi
 
 ---
 
+## 📊 Workflow
+1. Load dataset and preprocess images.  
+2. Apply transfer learning using pre-trained CNNs (e.g., MobileNet, ResNet).  
+3. Fine-tune model layers for better feature extraction.  
+4. Train and evaluate model performance.  
+5. Save trained model for deployment.
+
+---
+
 ## 📊 Results & Visuals
 
 Accuracy / Loss Curves
@@ -98,3 +107,21 @@ Model Output: ```Recyclable ♻️```
 - Extend to more waste categories (metal, glass, paper, plastic)
 - Deploy as a web app with Streamlit / Flask
 - Optimize inference for edge devices (e.g., Raspberry Pi in smart bins)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit PRs.
+
+---
+
+✨ Acknowledgements
+
+- VGG16 Pre-trained Model (ImageNet)
+- Course: Deep Learning with Keras & TensorFlow
+- Inspiration: Real-world need for sustainable waste management
+
+🎓 Certificate
+![Deep Learning with Keras and Tensorflow_page-0001](https://github.com/user-attachments/assets/604cf7e1-9375-4778-81ea-f8373dd8d23b)
+
