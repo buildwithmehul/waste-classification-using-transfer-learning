@@ -55,7 +55,7 @@ This project leverages **AI-powered image recognition** to automate waste classi
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Clone the repo:
 ```bash
@@ -75,3 +75,26 @@ This project leverages **AI-powered image recognition** to automate waste classi
     jupyter notebook notebooks/Final\ Proj-Classify\ Waste\ Products\ Using\ TL-FT-v1.ipynb
 ```
 4. Run all cells to train/evaluate the model.
+
+---
+
+## 📊 Results & Visuals
+
+Accuracy / Loss Curves
+<img width="679" height="506" alt="image" src="https://github.com/user-attachments/assets/f0312359-1113-4ad0-81b4-8a4cc004ef88" />
+
+Example Prediction
+
+Input Image: 🍌 banana peel
+Model Output: ```Organic 🌱```
+
+Input Image: 🥤 plastic bottle
+Model Output: ```Recyclable ♻️```
+
+---
+
+## 💡 Future Improvements
+
+- Extend to more waste categories (metal, glass, paper, plastic)
+- Deploy as a web app with Streamlit / Flask
+- Optimize inference for edge devices (e.g., Raspberry Pi in smart bins)
