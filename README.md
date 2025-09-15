@@ -51,6 +51,7 @@ This project leverages **AI-powered image recognition** to automate waste classi
 ├──  README.md                                                   # Project documentation
 ├──  requirements.txt                                            # Requirements 
 └── .gitignore                                                   # Ignore big files & venv
+```
 
 ---
 
@@ -60,7 +61,7 @@ This project leverages **AI-powered image recognition** to automate waste classi
 ```bash
     git clone https://github.com/buildwithmehul/waste-classification-using-transfer-learning.git
     cd waste-classification-using-transfer-learning
-
+```
 2. Create a virtual environment & install dependencies
 ```bash
     python -m venv venv
@@ -68,9 +69,9 @@ This project leverages **AI-powered image recognition** to automate waste classi
     venv\Scripts\activate      # On Windows
 
     pip install -r requirements.txt
-
+```
 3. Open the notebook:
 ```bash
     jupyter notebook notebooks/Final\ Proj-Classify\ Waste\ Products\ Using\ TL-FT-v1.ipynb
-
+```
 4. Run all cells to train/evaluate the model.
